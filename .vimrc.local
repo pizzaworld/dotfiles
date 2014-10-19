@@ -1,0 +1,10 @@
+set nocompatible
+runtime macros/matchit.vim
+set number
+syntax enable
+set background=dark
+set cursorline
+colorscheme solarized
+
+nnoremap <silent> <leader>f :ClearCtrlPCache<CR>\|:CtrlP<CR>
+inoremap jj <Esc>
