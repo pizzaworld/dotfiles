@@ -3,7 +3,8 @@ set -e
 
 files=".gitconfig.local
 .tmux.conf.local
-.vimrc.local"
+.vimrc.local
+.vimbundle.local"
 
 for file in $files; do
   ln -nfs $PWD/$file $HOME/$file
